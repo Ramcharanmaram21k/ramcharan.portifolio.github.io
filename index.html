@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maram Sri Venkata Ramcharan | Frontend Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header/Hero Section -->
+    <header class="gradient-bg text-white">
+        <div class="container mx-auto px-6 py-16">
+            <nav class="flex justify-between items-center mb-16">
+                <div class="flex items-center text-2xl font-bold">
+                    <!-- Your actual profile photo as the logo (small version) -->
+                    <img src="logo-img.jpg" alt="Logo" class="logo-img">
+                    MSV<span class="text-yellow-300">RC</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="hover:text-yellow-300 transition">About</a>
+                    <a href="#skills" class="hover:text-yellow-300 transition">Skills</a>
+                    <a href="#projects" class="hover:text-yellow-300 transition">Projects</a>
+                    <a href="#contact" class="hover:text-yellow-300 transition">Contact</a>
+                </div>
+            </nav>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Maram Sri Venkata Ramcharan</h1>
+                    <h2 class="text-xl md:text-2xl mb-6">Frontend Developer Specializing in React.js</h2>
+                    <p class="mb-8 text-gray-100">Building beautiful, responsive, and user-friendly web experiences with modern frontend technologies.</p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="bg-white text-indigo-600 px-6 py-2 rounded-md font-medium hover:bg-yellow-300 transition">Get in Touch</a>
+                        <a href="#projects" class="border border-white px-6 py-2 rounded-md font-medium hover:bg-white hover:text-indigo-600 transition">View My Work</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h2 class="text-3xl font-bold mb-4 text-gray-800">About Me</h2>
+                    <div class="w-20 h-1 bg-indigo-600 mb-6"></div>
+                    <p class="text-gray-600 mb-4">
+                        I'm a Frontend Developer with specialized expertise in React.js development and modern frontend architecture. With a B.Tech in Information Technology from Bharath Institute of Higher Education and Research, I bring a strong foundation in web technologies and user interface design.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        My experience includes developing responsive single-page applications, implementing state management solutions, and creating reusable UI components. I'm passionate about creating elegant, intuitive user experiences that combine visual appeal with technical excellence.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.linkedin.com/in/ramcharan-maram-996b022aa/" target="_blank" class="text-indigo-600 hover:text-indigo-800 transition">
+                            <i class="fab fa-linkedin text-2xl"></i>
+                        </a>
+                        <a href="https://github.com/Ramcharanmaram21k" target="_blank" class="text-indigo-600 hover:text-indigo-800 transition">
+                            <i class="fab fa-github text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-bold mb-4 text-gray-800">Education & Experience</h3>
+                        <div class="mb-4">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-gray-700">B.Tech in IT</span>
+                                <span class="text-sm text-gray-500">2020-2024</span>
+                            </div>
+                            <p class="text-gray-600 text-sm">Bharath Institute of Higher Education and Research</p>
+                        </div>
+                        <div class="mb-4">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-gray-700">React Frontend Developer Intern</span>
+                                <span class="text-sm text-gray-500">Dec 2023 - Feb 2024</span>
+                            </div>
+                            <p class="text-gray-600 text-sm">CODEGNAN</p>
+                        </div>
+                        <div class="mb-4">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-semibold text-gray-700">React & JavaScript Developer Intern</span>
+                                <span class="text-sm text-gray-500">Sep 2023 - Nov 2023</span>
+                            </div>
+                            <p class="text-gray-600 text-sm">Indianservers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4 text-center text-gray-800">Technical Skills</h2>
+            <div class="w-20 h-1 bg-indigo-600 mx-auto mb-12"></div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-indigo-600 text-4xl mb-4">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Frontend</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>React.js</li>
+                        <li>JavaScript / TypeScript</li>
+                        <li>HTML5 / CSS3</li>
+                        <li>Material UI</li>
+                        <li>Styled Components</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-indigo-600 text-4xl mb-4">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">E-Commerce</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>Payment Gateway Integration</li>
+                        <li>Product Listings</li>
+                        <li>Order Management</li>
+                        <li>Shopping Cart Functionality</li>
+                        <li>Checkout Processes</li>
+                        <li>Customer Journey Optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-indigo-600 text-4xl mb-4">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Backend & APIs</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>RESTful APIs</li>
+                        <li>MongoDB</li>
+                        <li>Firebase</li>
+                        <li>Third-party API Integration</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-indigo-600 text-4xl mb-4">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Tools & Deployment</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>Git / GitHub</li>
+                        <li>npm / Webpack</li>
+                        <li>AWS / Netlify / Vercel</li>
+                        <li>Jest</li>
+                        <li>React Testing Library</li>
+                        <li>Responsive Design Tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4 text-center text-gray-800">Featured Projects</h2>
+            <div class="w-20 h-1 bg-indigo-600 mx-auto mb-12"></div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md project-card transition duration-300">
+                    <img src="ecommerce-dashboard.png" alt="E-commerce Dashboard" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">E-commerce Admin Dashboard</h3>
+                        <p class="text-gray-600 mb-4">A comprehensive admin interface for managing products, inventory, orders, and customer data with real-time analytics.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">React.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Redux</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Material UI</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Chart.js</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md project-card transition duration-300">
+                    <img src="realtime-chat-application.png" alt="Real-time Chat Application" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Real-time Chat Application</h3>
+                        <p class="text-gray-600 mb-4">Feature-rich messaging platform with real-time updates, file sharing, and end-to-end encryption using WebSockets.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">React.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Socket.io</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Express.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Firebase</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md project-card transition duration-300">
+                    <img src="content-recemondation-engine.png" alt="AI-powered Content Recommendation System" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Content Recommendation Engine</h3>
+                        <p class="text-gray-600 mb-4">AI-powered system that analyzes user behavior and preferences to provide personalized content recommendations.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">React.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Node.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">MongoDB</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">TensorFlow.js</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md project-card transition duration-300">
+                    <img src="taskmanagement-application.png" alt="Task Management Application" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Task Management Application</h3>
+                        <p class="text-gray-600 mb-4">A Kanban-style productivity tool with drag-and-drop functionality, task prioritization, and team collaboration features.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">React.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">React DnD</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Redux</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Firebase</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md project-card transition duration-300">
+                    <img src="pickpocket-suspect-detection.png" alt="Security Dashboard" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Pickpocket Suspect Detection System</h3>
+                        <p class="text-gray-600 mb-4">Security solution with advanced analytics, real-time alerts, and interactive dashboards for monitoring suspicious activities.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">React.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Node.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">MongoDB</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">D3.js</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md project-card transition duration-300">
+                    <img src="finincial-analytics-img.png" alt="Financial Dashboard" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Financial Analytics Dashboard</h3>
+                        <p class="text-gray-600 mb-4">Interactive finance visualization tool with custom charts, expense tracking, and budget planning capabilities.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">React.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Recharts</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">Express.js</span>
+                            <span class="tech-badge text-xs px-2 py-1 rounded-full">PostgreSQL</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4 text-center text-gray-800">Get In Touch</h2>
+            <div class="w-20 h-1 bg-indigo-600 mx-auto mb-12"></div>
+            
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2 bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-6 text-gray-800">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="text-indigo-600 mr-3 mt-1">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-800">Email</p>
+                                <p class="text-gray-600">ramcharan.maram26@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-indigo-600 mr-3 mt-1">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-800">Phone</p>
+                                <p class="text-gray-600">+91 6300016126</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-indigo-600 mr-3 mt-1">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-800">Location</p>
+                                <p class="text-gray-600">India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-indigo-600 mr-3 mt-1">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-800">LinkedIn</p>
+                                <a href="https://www.linkedin.com/in/ramcharan-maram-996b022aa/" class="text-indigo-600 hover:text-indigo-800">ramcharan-maram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-6 text-gray-800">Send Me a Message</h3>
+                    <form>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-medium mb-2" for="name">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600" placeholder="Your Name">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-medium mb-2" for="email">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600" placeholder="your@email.com">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block text-gray-700 text-sm font-medium mb-2" for="message">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600" placeholder="Your message..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 transition">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-800 text-gray-300">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0 flex items-center">
+                    <img src="profile-photo.jpg" alt="Logo" class="rounded-full mr-2 w-6 h-6">
+                    <div class="text-2xl font-bold text-white">MSV<span class="text-yellow-300">RC</span></div>
+                    <p class="text-sm ml-3">Frontend Developer specializing in React.js</p>
+                </div>
+                
+                <div class="flex space-x-4">
+                    <a href="https://www.linkedin.com/in/ramcharan-maram-996b022aa/" class="hover:text-white transition">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                    <a href="https://github.com/Ramcharanmaram21k" class="hover:text-white transition">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                    <a href="mailto:ramcharan.maram26@gmail.com" class="hover:text-white transition">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-sm">
+                <p>&copy; 2024 Maram Sri Venkata Ramcharan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Navigation highlighting
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav a');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('text-yellow-300');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('text-yellow-300');
+                }
+            });
+        });
+
+        // Contact form validation and submission handler
+        const contactForm = document.querySelector('#contact form');
+        
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                
+                // Validate form fields
+                if (!name || !email || !message) {
+                    alert('Please fill out all fields');
+                    return;
+                }
+                
+                // Email validation
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    alert('Please enter a valid email address');
+                    return;
+                }
+                
+                // Show sending message
+                alert('Thank you for your message! I will get back to you soon.');
+                contactForm.reset();
+                
+                // Note: In a real implementation, you would send this data to a server
+                console.log('Form submitted:', { name, email, message });
+            });
+        }
+    });
+    </script>
+</body>
+</html>
